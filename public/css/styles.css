@@ -1,0 +1,66 @@
+header.top-header {
+    background: url(../images/banner1.jpg);
+    background-size: cover;
+}
+.navbar-brand {
+    font-size: 1.9em;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.navbar-line {
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link,
+.nav-link:focus, .nav-link:hover
+{
+    border-top: 1px solid rgba(255, 255, 255, .25);
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+}
+.banner {
+    padding: 200px 0;
+    color: #fff;
+}
+.banner h1 {
+    font-size: 3.5em;
+    font-weight: normal;
+}
+.banner p {
+    font-size: 1.8em;
+    letter-spacing: 3px;
+}
+.btn-tour {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-right: 5px;
+}
+.btn-bg, .btn-tour:hover {
+    background: rgba(255, 255, 255, .25);
+    color: #fff;
+}
+/* Item */
+.item {
+    background: #333;
+    border-bottom: 10px solid #177efc;
+    text-align: center;
+    margin: 30px 0
+}
+.item .item-name {
+    display: block;
+    padding: 30px 0;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.btn-info {
+    display: inline-block;
+    padding: 30px 0;
+}
